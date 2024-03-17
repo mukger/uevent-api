@@ -1,0 +1,33 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "config": "^3.3.9",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "jspdf": "^2.5.1",
+    "liqpay": "^0.0.1",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.2.0",
+    "node-mysql-admin": "^0.1.8",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.1",
+    "pg": "^8.10.0",
+    "pq": "^0.0.3",
+    "qrcode": "^1.5.1",
+    "sha1": "^1.1.1",
+    "uuid": "^9.0.0"
+  }
+}

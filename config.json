@@ -1,0 +1,35 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 3001
+  },
+  "jwt": {
+    "jwt_access_secret": "uevent_access",
+    "jwt_refresh_secret": "uevent_refresh",
+    "access_expire_at": "6h",
+    "refresh_expire_at": "30d"
+  },
+  "register": {
+    "salt_rounds": 10,
+    "default_image": "/images/default_avatar.png"
+  },
+  "aes256": {
+    "algorithm": "aes-256-cbc",
+    "key": "promocode_secret",
+    "iv": "7a68c5a5e20058ab3fc3c34f60b50fcf"
+  },
+  "event": {
+    "default_image": "/images/default_avatar.png",
+    "maxEventOnPage": 6
+  },
+  "comment": {
+    "maxCommentOnPage": 6
+  },
+  "mail": {
+    "user": "vlad.kharkovskiy22@gmail.com",
+    "pass": "vxtxdoyzpokczhvf"
+  },
+  "liqpay": {
+    "private_key": "sandbox_ern86NDsB6oLBxPvJgACo8Im14yH2F02tcecG5ur"
+  }
+}
