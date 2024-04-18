@@ -4,7 +4,7 @@ This project is a web application for event management, developed using Node.js 
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-repository`
+1. Clone the repository: `git clone git@github.com:mukger/uevent-api.git`
 2. Install dependencies: `npm install`
 
 ## Running
